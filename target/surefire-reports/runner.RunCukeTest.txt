@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 83, Failures: 0, Errors: 4, Skipped: 5, Time elapsed: 0.599 sec <<< FAILURE! - in runner.RunCukeTest
+And I have 2000 rupees in my account with "X" bank(Scenario: Regex features in various types)  Time elapsed: 0.007 sec  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.And I have 2000 rupees in my account with "X" bank(06_Regex_test.feature:9) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+
+Scenario: Regex features in various types  Time elapsed: 0.008 sec  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.And I have 2000 rupees in my account with "X" bank(06_Regex_test.feature:9) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+
+When I have 2000 rupees in my account with "X" bank(Scenario: Ambiguous keyword scenario)  Time elapsed: 0.002 sec  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.When I have 2000 rupees in my account with "X" bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+
+Scenario: Ambiguous keyword scenario  Time elapsed: 0.003 sec  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.When I have 2000 rupees in my account with "X" bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+

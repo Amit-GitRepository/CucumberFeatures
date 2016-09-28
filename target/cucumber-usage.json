@@ -1,0 +1,728 @@
+[
+  {
+    "source": "^I validate the outcomes$",
+    "steps": [
+      {
+        "name": "I validate the outcomes",
+        "aggregatedDurations": {
+          "average": 0.000182881,
+          "median": 0.000182881
+        },
+        "durations": [
+          {
+            "duration": 0.000230001,
+            "location": "01_basic_test.feature:10"
+          },
+          {
+            "duration": 0.000135761,
+            "location": "04_Basic_Star_test.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^check more outcomes$",
+    "steps": [
+      {
+        "name": "check more outcomes",
+        "aggregatedDurations": {
+          "average": 0.000076278,
+          "median": 0.000076278
+        },
+        "durations": [
+          {
+            "duration": 0.000072779,
+            "location": "01_basic_test.feature:11"
+          },
+          {
+            "duration": 0.000079777,
+            "location": "04_Basic_Star_test.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Scenario 4 in backgraound feature$",
+    "steps": [
+      {
+        "name": "Scenario 4 in backgraound feature",
+        "aggregatedDurations": {
+          "average": 0.000124098,
+          "median": 0.000124098
+        },
+        "durations": [
+          {
+            "duration": 0.000124098,
+            "location": "02_BackBround_test.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Scenario 1 in backgraound feature$",
+    "steps": [
+      {
+        "name": "Scenario 1 in backgraound feature",
+        "aggregatedDurations": {
+          "average": 0.000073712,
+          "median": 0.000073712
+        },
+        "durations": [
+          {
+            "duration": 0.000073712,
+            "location": "02_BackBround_test.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^yet another action$",
+    "steps": [
+      {
+        "name": "yet another action",
+        "aggregatedDurations": {
+          "average": 0.000069979,
+          "median": 0.000069979
+        },
+        "durations": [
+          {
+            "duration": 0.000071379,
+            "location": "01_basic_test.feature:9"
+          },
+          {
+            "duration": 0.00006858,
+            "location": "04_Basic_Star_test.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I (find|donot find) salary in my account$",
+    "steps": [
+      {
+        "name": "I find salary in my account",
+        "aggregatedDurations": {
+          "average": 0.000205741,
+          "median": 0.000205741
+        },
+        "durations": [
+          {
+            "duration": 0.000205741,
+            "location": "09_capture_non_capture_group.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "I donot find salary in my account",
+        "aggregatedDurations": {
+          "average": 0.000089108,
+          "median": 0.000089108
+        },
+        "durations": [
+          {
+            "duration": 0.000089108,
+            "location": "09_capture_non_capture_group.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am running scenario two$",
+    "steps": [
+      {
+        "name": "I am running scenario two",
+        "aggregatedDurations": {
+          "average": 0.000200609,
+          "median": 0.000200609
+        },
+        "durations": [
+          {
+            "duration": 0.000200609,
+            "location": "12_tagging.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User has to perform this before every scenario$",
+    "steps": [
+      {
+        "name": "User has to perform this before every scenario",
+        "aggregatedDurations": {
+          "average": 0.000191278,
+          "median": 0.000109169
+        },
+        "durations": [
+          {
+            "duration": 0.000109169,
+            "location": "02_BackBround_test.feature:6"
+          },
+          {
+            "duration": 0.000088174,
+            "location": "02_BackBround_test.feature:6"
+          },
+          {
+            "duration": 0.000546776,
+            "location": "02_BackBround_test.feature:6"
+          },
+          {
+            "duration": 0.000110101,
+            "location": "02_BackBround_test.feature:6"
+          },
+          {
+            "duration": 0.00010217,
+            "location": "02_BackBround_test.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^date of project release is \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "date of project release is \"25-11-2016\"",
+        "aggregatedDurations": {
+          "average": 0.005328269,
+          "median": 0.005328269
+        },
+        "durations": [
+          {
+            "duration": 0.005328269,
+            "location": "08_String_to_Date_conversion_test.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^(?:I have|User has|He has) some money in my account$",
+    "steps": [
+      {
+        "name": "I have some money in my account",
+        "aggregatedDurations": {
+          "average": 0.000134828,
+          "median": 0.000134828
+        },
+        "durations": [
+          {
+            "duration": 0.000134828,
+            "location": "09_capture_non_capture_group.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "User has some money in my account",
+        "aggregatedDurations": {
+          "average": 0.00005645,
+          "median": 0.00005645
+        },
+        "durations": [
+          {
+            "duration": 0.00005645,
+            "location": "09_capture_non_capture_group.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "He has some money in my account",
+        "aggregatedDurations": {
+          "average": 0.000048053,
+          "median": 0.000048053
+        },
+        "durations": [
+          {
+            "duration": 0.000048053,
+            "location": "09_capture_non_capture_group.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am testing hook one$",
+    "steps": [
+      {
+        "name": "I am testing hook one",
+        "aggregatedDurations": {
+          "average": 0.000165619,
+          "median": 0.000165619
+        },
+        "durations": [
+          {
+            "duration": 0.000165619,
+            "location": "13_hooks.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I complete action$",
+    "steps": [
+      {
+        "name": "I complete action",
+        "aggregatedDurations": {
+          "average": 0.000088407,
+          "median": 0.000088407
+        },
+        "durations": [
+          {
+            "duration": 0.000082109,
+            "location": "01_basic_test.feature:7"
+          },
+          {
+            "duration": 0.000094706,
+            "location": "04_Basic_Star_test.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Scenario 2 in backgraound feature$",
+    "steps": [
+      {
+        "name": "Scenario 2 in backgraound feature",
+        "aggregatedDurations": {
+          "average": 0.000082577,
+          "median": 0.000082577
+        },
+        "durations": [
+          {
+            "duration": 0.000082577,
+            "location": "02_BackBround_test.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I want to write a step with \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I want to write a step with \"name1\"",
+        "aggregatedDurations": {
+          "average": 0.002623779,
+          "median": 0.002623779
+        },
+        "durations": [
+          {
+            "duration": 0.002623779,
+            "location": "03_ScenarioOutline_test.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I want to write a step with \"name2\"",
+        "aggregatedDurations": {
+          "average": 0.000293449,
+          "median": 0.000293449
+        },
+        "durations": [
+          {
+            "duration": 0.000293449,
+            "location": "03_ScenarioOutline_test.feature:5"
+          }
+        ]
+      },
+      {
+        "name": "I want to write a step with \"name3\"",
+        "aggregatedDurations": {
+          "average": 0.000117099,
+          "median": 0.000117099
+        },
+        "durations": [
+          {
+            "duration": 0.000117099,
+            "location": "03_ScenarioOutline_test.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I only have (\\d+) rupees in my account with \"([^\"]*)\" bank$",
+    "steps": [
+      {
+        "name": "I only have 1000 rupees in my account with \"HDFC\" bank",
+        "aggregatedDurations": {
+          "average": 0.000505255,
+          "median": 0.000505255
+        },
+        "durations": [
+          {
+            "duration": 0.000505255,
+            "location": "06_Regex_test.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have (\\d+) rupees in my account with \"([^\"]*)\" bank$",
+    "steps": [
+      {
+        "name": "I have 1000 rupees in my account with \"HDFC\" bank",
+        "aggregatedDurations": {
+          "average": 0.000841625,
+          "median": 0.000841625
+        },
+        "durations": [
+          {
+            "duration": 0.000841625,
+            "location": "07_AmbigousMethod_Test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on empty given statement$",
+    "steps": [
+      {
+        "name": "I am on empty given statement",
+        "aggregatedDurations": {
+          "average": 0.004441856,
+          "median": 0.004441856
+        },
+        "durations": [
+          {
+            "duration": 0.004441856,
+            "location": "09_capture_non_capture_group.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Also do this before every step$",
+    "steps": [
+      {
+        "name": "Also do this before every step",
+        "aggregatedDurations": {
+          "average": 0.000089294,
+          "median": 0.000075579
+        },
+        "durations": [
+          {
+            "duration": 0.000067647,
+            "location": "02_BackBround_test.feature:7"
+          },
+          {
+            "duration": 0.00006998,
+            "location": "02_BackBround_test.feature:7"
+          },
+          {
+            "duration": 0.000081643,
+            "location": "02_BackBround_test.feature:7"
+          },
+          {
+            "duration": 0.000151623,
+            "location": "02_BackBround_test.feature:7"
+          },
+          {
+            "duration": 0.000075579,
+            "location": "02_BackBround_test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^some other action$",
+    "steps": [
+      {
+        "name": "some other action",
+        "aggregatedDurations": {
+          "average": 0.000130162,
+          "median": 0.000130162
+        },
+        "durations": [
+          {
+            "duration": 0.000180548,
+            "location": "01_basic_test.feature:8"
+          },
+          {
+            "duration": 0.000079777,
+            "location": "04_Basic_Star_test.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a list of numbers$",
+    "steps": [
+      {
+        "name": "a list of numbers",
+        "aggregatedDurations": {
+          "average": 0.001685116,
+          "median": 0.001685116
+        },
+        "durations": [
+          {
+            "duration": 0.001685116,
+            "location": "05_DataTable_test.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Scenario 3 in backgraound feature$",
+    "steps": [
+      {
+        "name": "Scenario 3 in backgraound feature",
+        "aggregatedDurations": {
+          "average": 0.000081177,
+          "median": 0.000081177
+        },
+        "durations": [
+          {
+            "duration": 0.000081177,
+            "location": "02_BackBround_test.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I summarize them$",
+    "steps": [
+      {
+        "name": "I summarize them",
+        "aggregatedDurations": {
+          "average": 0.000184747,
+          "median": 0.000184747
+        },
+        "durations": [
+          {
+            "duration": 0.000184747,
+            "location": "05_DataTable_test.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I want to write a step with precondition$",
+    "steps": [
+      {
+        "name": "I want to write a step with precondition",
+        "aggregatedDurations": {
+          "average": 0.052572157,
+          "median": 0.052572157
+        },
+        "durations": [
+          {
+            "duration": 0.105039345,
+            "location": "01_basic_test.feature:5"
+          },
+          {
+            "duration": 0.000104969,
+            "location": "04_Basic_Star_test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^one letter \"([^\"]*)\" is missing from following alphabets$",
+    "steps": [
+      {
+        "name": "one letter \"O\" is missing from following alphabets",
+        "aggregatedDurations": {
+          "average": 0.000293916,
+          "median": 0.000293916
+        },
+        "durations": [
+          {
+            "duration": 0.000293916,
+            "location": "11_Doc_String_test.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I verify the \"([^\"]*)\" in step$",
+    "steps": [
+      {
+        "name": "I verify the \"success\" in step",
+        "aggregatedDurations": {
+          "average": 0.000261258,
+          "median": 0.000261258
+        },
+        "durations": [
+          {
+            "duration": 0.000261258,
+            "location": "03_ScenarioOutline_test.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "I verify the \"Fail\" in step",
+        "aggregatedDurations": {
+          "average": 0.00012783,
+          "median": 0.00012783
+        },
+        "durations": [
+          {
+            "duration": 0.000110568,
+            "location": "03_ScenarioOutline_test.feature:7"
+          },
+          {
+            "duration": 0.000145092,
+            "location": "03_ScenarioOutline_test.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am running scenario wip$",
+    "steps": [
+      {
+        "name": "I am running scenario wip",
+        "aggregatedDurations": {
+          "average": 0.000085376,
+          "median": 0.000085376
+        },
+        "durations": [
+          {
+            "duration": 0.000085376,
+            "location": "12_tagging.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^some other precondition$",
+    "steps": [
+      {
+        "name": "some other precondition",
+        "aggregatedDurations": {
+          "average": 0.000114767,
+          "median": 0.000114767
+        },
+        "durations": [
+          {
+            "duration": 0.000084909,
+            "location": "01_basic_test.feature:6"
+          },
+          {
+            "duration": 0.000144625,
+            "location": "04_Basic_Star_test.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am testing hook two$",
+    "steps": [
+      {
+        "name": "I am testing hook two",
+        "aggregatedDurations": {
+          "average": 0.000090507,
+          "median": 0.000090507
+        },
+        "durations": [
+          {
+            "duration": 0.000090507,
+            "location": "13_hooks.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Scenario 5 in backgraound feature$",
+    "steps": [
+      {
+        "name": "Scenario 5 in backgraound feature",
+        "aggregatedDurations": {
+          "average": 0.000097505,
+          "median": 0.000097505
+        },
+        "durations": [
+          {
+            "duration": 0.000097505,
+            "location": "02_BackBround_test.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I check for the (\\d+) in step$",
+    "steps": [
+      {
+        "name": "I check for the 5 in step",
+        "aggregatedDurations": {
+          "average": 0.001368807,
+          "median": 0.001368807
+        },
+        "durations": [
+          {
+            "duration": 0.001368807,
+            "location": "03_ScenarioOutline_test.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I check for the 7 in step",
+        "aggregatedDurations": {
+          "average": 0.000177749,
+          "median": 0.000177749
+        },
+        "durations": [
+          {
+            "duration": 0.000177749,
+            "location": "03_ScenarioOutline_test.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I check for the 11 in step",
+        "aggregatedDurations": {
+          "average": 0.000142293,
+          "median": 0.000142293
+        },
+        "durations": [
+          {
+            "duration": 0.000142293,
+            "location": "03_ScenarioOutline_test.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^should I get (\\d+)$",
+    "steps": [
+      {
+        "name": "should I get 4770",
+        "aggregatedDurations": {
+          "average": 0.001776556,
+          "median": 0.001776556
+        },
+        "durations": [
+          {
+            "duration": 0.001776556,
+            "location": "05_DataTable_test.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

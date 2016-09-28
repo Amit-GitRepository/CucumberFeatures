@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunCukeTest" time="0.599" tests="83" errors="4" skipped="5" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags ~@one"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Learnings\WorkSpace\Course"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Learnings\WorkSpace\Course"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\AMITKU~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Coin\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Python27;C:\Python27\Scripts;C:\Oracle\instantclient_11_2;C:\Coin\apache-maven-3.3.9\bin;C:\Go\bin;C:\Program Files\nodejs\;C:\Users\amitkumar\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\gradle-3.1\bin;C:\Program Files\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;C:\Program Files\jetty-distribution-9.2.19.v20160908\bin;C:\Users\amitkumar\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\amitkumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="amitkumar"/>
+    <property name="java.class.path" value="C:\Coin\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dcucumber.options=--tags ~@one"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Coin\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I want to write a step with precondition" classname="Scenario: Check background functionality" time="0.002"/>
+  <testcase name="And some other precondition" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="When I complete action" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="And some other action" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="And yet another action" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="Then I validate the outcomes" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="And check more outcomes" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="Scenario: Check background functionality" classname="Scenario: Check background functionality" time="0"/>
+  <testcase name="Given User has to perform this before every scenario" classname="Scenario: Background verification test 1" time="0"/>
+  <testcase name="And Also do this before every step" classname="Scenario: Background verification test 1" time="0"/>
+  <testcase name="Given Scenario 1 in backgraound feature" classname="Scenario: Background verification test 1" time="0"/>
+  <testcase name="Scenario: Background verification test 1" classname="Scenario: Background verification test 1" time="0.001"/>
+  <testcase name="Given User has to perform this before every scenario" classname="Scenario: Background verification test 2" time="0"/>
+  <testcase name="And Also do this before every step" classname="Scenario: Background verification test 2" time="0"/>
+  <testcase name="Given Scenario 2 in backgraound feature" classname="Scenario: Background verification test 2" time="0"/>
+  <testcase name="Scenario: Background verification test 2" classname="Scenario: Background verification test 2" time="0.001"/>
+  <testcase name="Given User has to perform this before every scenario" classname="Scenario: Background verification test 3" time="0"/>
+  <testcase name="And Also do this before every step" classname="Scenario: Background verification test 3" time="0"/>
+  <testcase name="Given Scenario 3 in backgraound feature" classname="Scenario: Background verification test 3" time="0"/>
+  <testcase name="Scenario: Background verification test 3" classname="Scenario: Background verification test 3" time="0.001"/>
+  <testcase name="Given User has to perform this before every scenario" classname="Scenario: Background verification test 4" time="0"/>
+  <testcase name="And Also do this before every step" classname="Scenario: Background verification test 4" time="0"/>
+  <testcase name="Given Scenario 4 in backgraound feature" classname="Scenario: Background verification test 4" time="0"/>
+  <testcase name="Scenario: Background verification test 4" classname="Scenario: Background verification test 4" time="0"/>
+  <testcase name="Given User has to perform this before every scenario" classname="Scenario: Background verification test 5" time="0"/>
+  <testcase name="And Also do this before every step" classname="Scenario: Background verification test 5" time="0"/>
+  <testcase name="Given Scenario 5 in backgraound feature" classname="Scenario: Background verification test 5" time="0"/>
+  <testcase name="Scenario: Background verification test 5" classname="Scenario: Background verification test 5" time="0"/>
+  <testcase name="Given I want to write a step with &quot;name1&quot;" classname="| name1 | 5 | success |" time="0"/>
+  <testcase name="When I check for the 5 in step" classname="| name1 | 5 | success |" time="0.001"/>
+  <testcase name="Then I verify the &quot;success&quot; in step" classname="| name1 | 5 | success |" time="0"/>
+  <testcase name="| name1 | 5 | success |" classname="| name1 | 5 | success |" time="0"/>
+  <testcase name="Given I want to write a step with &quot;name2&quot;" classname="| name2 | 7 | Fail |" time="0"/>
+  <testcase name="When I check for the 7 in step" classname="| name2 | 7 | Fail |" time="0"/>
+  <testcase name="Then I verify the &quot;Fail&quot; in step" classname="| name2 | 7 | Fail |" time="0"/>
+  <testcase name="| name2 | 7 | Fail |" classname="| name2 | 7 | Fail |" time="0"/>
+  <testcase name="Given I want to write a step with &quot;name3&quot;" classname="| name3 | 11 | Fail |" time="0"/>
+  <testcase name="When I check for the 11 in step" classname="| name3 | 11 | Fail |" time="0.001"/>
+  <testcase name="Then I verify the &quot;Fail&quot; in step" classname="| name3 | 11 | Fail |" time="0"/>
+  <testcase name="| name3 | 11 | Fail |" classname="| name3 | 11 | Fail |" time="0.001"/>
+  <testcase name="* I want to write a step with precondition" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="* some other precondition" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="* I complete action" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="* some other action" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="* yet another action" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="* I validate the outcomes" classname="Scenario: Star usage test scenario" time="0.001"/>
+  <testcase name="* check more outcomes" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="Scenario: Star usage test scenario" classname="Scenario: Star usage test scenario" time="0"/>
+  <testcase name="Given a list of numbers" classname="Scenario: The sum of a list of numbers should be calculated" time="0"/>
+  <testcase name="When I summarize them" classname="Scenario: The sum of a list of numbers should be calculated" time="0"/>
+  <testcase name="Then should I get 4770" classname="Scenario: The sum of a list of numbers should be calculated" time="0"/>
+  <testcase name="Scenario: The sum of a list of numbers should be calculated" classname="Scenario: The sum of a list of numbers should be calculated" time="0.001"/>
+  <testcase name="Given I only have 1000 rupees in my account with &quot;HDFC&quot; bank" classname="Scenario: Regex features in various types" time="0"/>
+  <testcase name="And I have 2000 rupees in my account with &quot;X&quot; bank" classname="Scenario: Regex features in various types" time="0.007">
+    <error message="✽.And I have 2000 rupees in my account with &quot;X&quot; bank(06_Regex_test.feature:9) matches more than one step definition:&#10;  ^I have (\d+) rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)&#10;  ^I have 2000 rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)&#10;" type="cucumber.runtime.AmbiguousStepDefinitionsException">cucumber.runtime.AmbiguousStepDefinitionsException: 
+✽.And I have 2000 rupees in my account with "X" bank(06_Regex_test.feature:9) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+</error>
+  </testcase>
+  <testcase name="Scenario: Regex features in various types" classname="Scenario: Regex features in various types" time="0.008">
+    <error message="✽.And I have 2000 rupees in my account with &quot;X&quot; bank(06_Regex_test.feature:9) matches more than one step definition:&#10;  ^I have (\d+) rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)&#10;  ^I have 2000 rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)&#10;" type="cucumber.runtime.AmbiguousStepDefinitionsException">cucumber.runtime.AmbiguousStepDefinitionsException: 
+✽.And I have 2000 rupees in my account with "X" bank(06_Regex_test.feature:9) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+</error>
+  </testcase>
+  <testcase name="When I withdraw 600 rupees" classname="Scenario: Regex features in various types" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I have a balance of 400 rupees" classname="Scenario: Regex features in various types" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I have account in &quot;CITY, ICICI, HDFC&quot;" classname="Scenario: Regex features in various types" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I close &quot;ICICI&quot; account" classname="Scenario: Regex features in various types" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I have left with &quot;CITY, HDFC&quot; account" classname="Scenario: Regex features in various types" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I have 1000 rupees in my account with &quot;HDFC&quot; bank" classname="Scenario: Ambiguous keyword scenario" time="0"/>
+  <testcase name="When I have 2000 rupees in my account with &quot;X&quot; bank" classname="Scenario: Ambiguous keyword scenario" time="0.002">
+    <error message="✽.When I have 2000 rupees in my account with &quot;X&quot; bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:&#10;  ^I have (\d+) rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)&#10;  ^I have 2000 rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)&#10;" type="cucumber.runtime.AmbiguousStepDefinitionsException">cucumber.runtime.AmbiguousStepDefinitionsException: 
+✽.When I have 2000 rupees in my account with "X" bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+</error>
+  </testcase>
+  <testcase name="Scenario: Ambiguous keyword scenario" classname="Scenario: Ambiguous keyword scenario" time="0.003">
+    <error message="✽.When I have 2000 rupees in my account with &quot;X&quot; bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:&#10;  ^I have (\d+) rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)&#10;  ^I have 2000 rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)&#10;" type="cucumber.runtime.AmbiguousStepDefinitionsException">cucumber.runtime.AmbiguousStepDefinitionsException: 
+✽.When I have 2000 rupees in my account with "X" bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+</error>
+  </testcase>
+  <testcase name="Given date of project release is &quot;25-11-2016&quot;" classname="Scenario: Passing string as date date" time="0"/>
+  <testcase name="Scenario: Passing string as date date" classname="Scenario: Passing string as date date" time="0.001"/>
+  <testcase name="Given I am on empty given statement" classname="Scenario: Capture Group" time="0"/>
+  <testcase name="Then I find salary in my account" classname="Scenario: Capture Group" time="0"/>
+  <testcase name="Then I donot find salary in my account" classname="Scenario: Capture Group" time="0"/>
+  <testcase name="Scenario: Capture Group" classname="Scenario: Capture Group" time="0"/>
+  <testcase name="Given I have some money in my account" classname="Scenario: Non Capture Group" time="0"/>
+  <testcase name="Given User has some money in my account" classname="Scenario: Non Capture Group" time="0"/>
+  <testcase name="Given He has some money in my account" classname="Scenario: Non Capture Group" time="0"/>
+  <testcase name="Scenario: Non Capture Group" classname="Scenario: Non Capture Group" time="0.001"/>
+  <testcase name="Given one letter &quot;O&quot; is missing from following alphabets" classname="Scenario: Doc String" time="0"/>
+  <testcase name="Scenario: Doc String" classname="Scenario: Doc String" time="0"/>
+  <testcase name="Given I am running scenario two" classname="Scenario: Two" time="0"/>
+  <testcase name="Scenario: Two" classname="Scenario: Two" time="0"/>
+  <testcase name="Given I am running scenario wip" classname="Scenario: work in progress" time="0"/>
+  <testcase name="Scenario: work in progress" classname="Scenario: work in progress" time="0"/>
+  <testcase name="Given I am testing hook one" classname="Scenario: H1" time="0"/>
+  <testcase name="Scenario: H1" classname="Scenario: H1" time="0"/>
+  <testcase name="Given I am testing hook two" classname="Scenario: H2" time="0"/>
+  <testcase name="Scenario: H2" classname="Scenario: H2" time="0"/>
+</testsuite>

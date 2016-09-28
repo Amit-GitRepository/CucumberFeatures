@@ -1,0 +1,248 @@
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  Scenario: Check background functionality         # 01_basic_test.feature:4
+    Given I want to write a step with precondition # StepDef01_Basic.i_want_to_write_a_step_with_precondition()
+    And some other precondition                    # StepDef01_Basic.some_other_precondition()
+    When I complete action                         # StepDef01_Basic.i_complete_action()
+    And some other action                          # StepDef01_Basic.some_other_action()
+    And yet another action                         # StepDef01_Basic.yet_another_action()
+    Then I validate the outcomes                   # StepDef01_Basic.i_validate_the_outcomes()
+    And check more outcomes                        # StepDef01_Basic.check_more_outcomes()
+@Background
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  Background:                                            # 02_BackBround_test.feature:5
+    Given User has to perform this before every scenario # StepDef02_Background.user_has_to_perform_this_before_every_scenario()
+    And Also do this before every step                   # StepDef02_Background.also_do_this_before_every_step()
+
+  Scenario: Background verification test 1  # 02_BackBround_test.feature:9
+    Given Scenario 1 in backgraound feature # StepDef02_Background.i_want_to_write_a_step_with_precondition()
+
+  Background:                                            # 02_BackBround_test.feature:5
+    Given User has to perform this before every scenario # StepDef02_Background.user_has_to_perform_this_before_every_scenario()
+    And Also do this before every step                   # StepDef02_Background.also_do_this_before_every_step()
+
+  Scenario: Background verification test 2  # 02_BackBround_test.feature:12
+    Given Scenario 2 in backgraound feature # StepDef02_Background.i_want_to_write_2_step_with_precondition()
+
+  Background:                                            # 02_BackBround_test.feature:5
+    Given User has to perform this before every scenario # StepDef02_Background.user_has_to_perform_this_before_every_scenario()
+    And Also do this before every step                   # StepDef02_Background.also_do_this_before_every_step()
+
+  Scenario: Background verification test 3  # 02_BackBround_test.feature:15
+    Given Scenario 3 in backgraound feature # StepDef02_Background.i_want_to_write_3_step_with_precondition()
+
+  Background:                                            # 02_BackBround_test.feature:5
+    Given User has to perform this before every scenario # StepDef02_Background.user_has_to_perform_this_before_every_scenario()
+    And Also do this before every step                   # StepDef02_Background.also_do_this_before_every_step()
+
+  Scenario: Background verification test 4  # 02_BackBround_test.feature:18
+    Given Scenario 4 in backgraound feature # StepDef02_Background.i_want_to_write_4_step_with_precondition()
+
+  Background:                                            # 02_BackBround_test.feature:5
+    Given User has to perform this before every scenario # StepDef02_Background.user_has_to_perform_this_before_every_scenario()
+    And Also do this before every step                   # StepDef02_Background.also_do_this_before_every_step()
+
+  Scenario: Background verification test 5  # 02_BackBround_test.feature:21
+    Given Scenario 5 in backgraound feature # StepDef02_Background.i_want_to_write_5_step_with_precondition()
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  Scenario Outline: Title of your scenario outline # 03_ScenarioOutline_test.feature:4
+    Given I want to write a step with "<name>"
+    When I check for the <value> in step
+    Then I verify the "<status>" in step
+
+    Examples: 
+
+  Scenario Outline: Title of your scenario outline # 03_ScenarioOutline_test.feature:11
+    Given I want to write a step with "name1"      # StepDef03_ScenarioOutline.i_want_to_write_a_step_with_name(String)
+    When I check for the 5 in step                 # StepDef03_ScenarioOutline.i_check_for_the_in_step(int)
+    Then I verify the "success" in step            # StepDef03_ScenarioOutline.i_verify_the_success_in_step(String)
+
+  Scenario Outline: Title of your scenario outline # 03_ScenarioOutline_test.feature:12
+    Given I want to write a step with "name2"      # StepDef03_ScenarioOutline.i_want_to_write_a_step_with_name(String)
+    When I check for the 7 in step                 # StepDef03_ScenarioOutline.i_check_for_the_in_step(int)
+    Then I verify the "Fail" in step               # StepDef03_ScenarioOutline.i_verify_the_success_in_step(String)
+
+  Scenario Outline: Title of your scenario outline # 03_ScenarioOutline_test.feature:13
+    Given I want to write a step with "name3"      # StepDef03_ScenarioOutline.i_want_to_write_a_step_with_name(String)
+    When I check for the 11 in step                # StepDef03_ScenarioOutline.i_check_for_the_in_step(int)
+    Then I verify the "Fail" in step               # StepDef03_ScenarioOutline.i_verify_the_success_in_step(String)
+Feature: Feature to test * for replacing Gherkin keywords
+  I want to use this template for my feature file
+
+  Scenario: Star usage test scenario           # 04_Basic_Star_test.feature:6
+    * I want to write a step with precondition # StepDef01_Basic.i_want_to_write_a_step_with_precondition()
+    * some other precondition                  # StepDef01_Basic.some_other_precondition()
+    * I complete action                        # StepDef01_Basic.i_complete_action()
+    * some other action                        # StepDef01_Basic.some_other_action()
+    * yet another action                       # StepDef01_Basic.yet_another_action()
+    * I validate the outcomes                  # StepDef01_Basic.i_validate_the_outcomes()
+    * check more outcomes                      # StepDef01_Basic.check_more_outcomes()
+Feature: Data Table learning feature
+
+  Scenario: The sum of a list of numbers should be calculated # 05_DataTable_test.feature:3
+    Given a list of numbers                                   # StepDef05_DataTable.a_list_of_numbers(DataTable)
+    When I summarize them                                     # StepDef05_DataTable.i_summarize_them()
+    Then should I get 4770                                    # StepDef05_DataTable.should_I_get(int)
+@regex
+Feature: RegEx Features
+  In order to learn Regex features
+  As a user
+  I want to verify how regex are written in feature files
+
+  Scenario: Regex features in various types                      # 06_Regex_test.feature:7
+    Given I only have 1000 rupees in my account with "HDFC" bank # StepDef06_RegEx.i_have_rupees_in_my_account_with_bank(int,String)
+    And I have 2000 rupees in my account with "X" bank           # StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+      cucumber.runtime.AmbiguousStepDefinitionsException: ✽.And I have 2000 rupees in my account with "X" bank(06_Regex_test.feature:9) matches more than one step definition:
+        ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+        ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+      
+      	at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:265)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    When I withdraw 600 rupees                                   # StepDef06_RegEx.i_withdraw_rupees(int)
+    Then I have a balance of 400 rupees                          # StepDef06_RegEx.i_have_a_balance_of_rupees(int)
+    Given I have account in "CITY, ICICI, HDFC"                  # StepDef06_RegEx.i_have_account_in(String>)
+    When I close "ICICI" account                                 # StepDef06_RegEx.i_close_account(String)
+    Then I have left with "CITY, HDFC" account                   # StepDef06_RegEx.i_have_left_with_account(String>)
+Feature: Ambiguous feature exploration in cucumber
+  In order to learn cucumber steps definitions
+  As a user
+  I want to verify ambigugous keyword exception
+
+  Scenario: Ambiguous keyword scenario                      # 07_AmbigousMethod_Test.feature:6
+    Given I have 1000 rupees in my account with "HDFC" bank # StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+    When I have 2000 rupees in my account with "X" bank     # StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+      cucumber.runtime.AmbiguousStepDefinitionsException: ✽.When I have 2000 rupees in my account with "X" bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:
+        ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+        ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+      
+      	at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:265)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+@date
+Feature: String to Date
+  In order to test String conversion
+  As a user
+  I want to verify string to date with examples
+
+  Scenario: Passing string as date date           # 08_String_to_Date_conversion_test.feature:7
+    Given date of project release is "25-11-2016" # StepDef08_DateConversion.date_of_project_release_is(Date)
+@capture
+Feature: Capture and Non Capture Group
+  In order to test Capture and Non Capture Group
+  As a user
+  I want to verify these with examples
+
+  Scenario: Capture Group                  # 09_capture_non_capture_group.feature:7
+    Given I am on empty given statement    # StepDef09_CaptureGroup.i_am_on_empty_given_statement()
+    Then I find salary in my account       # StepDef09_CaptureGroup.i_find_salary_in_my_account(String)
+    Then I donot find salary in my account # StepDef09_CaptureGroup.i_find_salary_in_my_account(String)
+
+  Scenario: Non Capture Group               # 09_capture_non_capture_group.feature:12
+    Given I have some money in my account   # StepDef09_CaptureGroup.i_have_some_money_in_my_account()
+    Given User has some money in my account # StepDef09_CaptureGroup.i_have_some_money_in_my_account()
+    Given He has some money in my account   # StepDef09_CaptureGroup.i_have_some_money_in_my_account()
+@docstring
+Feature: Doc String
+  In order to test Doc String
+  As a user
+  I want to verify doc string with examples
+
+  Scenario: Doc String                                       # 11_Doc_String_test.feature:7
+    Given one letter "O" is missing from following alphabets # StepDef11_DocString.one_letter_is_missing_from_following_alphabets(String,String)
+      """
+      A B C D E F
+      G H I J K L
+      M N P Q R 
+      S T U V W X
+      Y Z
+      """
+@tags
+Feature: Tags
+  In order to test tags in cucumber
+  As a user
+  I want to verify these with examples
+
+  @two @wip
+  Scenario: Two                     # 12_tagging.feature:12
+    Given I am running scenario two # StepDef12_Tagging.i_am_running_scenario_two()
+
+  @wip
+  Scenario: work in progress        # 12_tagging.feature:20
+    Given I am running scenario wip # StepDef12_Tagging.i_am_running_scenario_wip()
+@hooks
+Feature: Hooks
+  In order to test tags in cucumber
+  As a user
+  I want to verify these with examples
+
+  @h1
+  Scenario: H1                  # 13_hooks.feature:8
+    Given I am testing hook one # StepDef13_Hooks.i_am_testing_hook_one()
+
+  @h2
+  Scenario: H2                  # 13_hooks.feature:12
+    Given I am testing hook two # StepDef13_Hooks.i_am_testing_hook_two()

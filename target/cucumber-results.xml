@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="21" time="0.129706">
+<testcase classname="Title of your feature" name="Check background functionality" time="0.105761">
+<system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action......................................................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And check more outcomes.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Background verification test 1" time="0.000251">
+<system-out><![CDATA[Given User has to perform this before every scenario........................passed
+And Also do this before every step..........................................passed
+Given Scenario 1 in backgraound feature.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Background verification test 2" time="0.000241">
+<system-out><![CDATA[Given User has to perform this before every scenario........................passed
+And Also do this before every step..........................................passed
+Given Scenario 2 in backgraound feature.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Background verification test 3" time="0.00071">
+<system-out><![CDATA[Given User has to perform this before every scenario........................passed
+And Also do this before every step..........................................passed
+Given Scenario 3 in backgraound feature.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Background verification test 4" time="0.000386">
+<system-out><![CDATA[Given User has to perform this before every scenario........................passed
+And Also do this before every step..........................................passed
+Given Scenario 4 in backgraound feature.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Background verification test 5" time="0.000275">
+<system-out><![CDATA[Given User has to perform this before every scenario........................passed
+And Also do this before every step..........................................passed
+Given Scenario 5 in backgraound feature.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline" time="0.004254">
+<system-out><![CDATA[Given I want to write a step with "name1"...................................passed
+When I check for the 5 in step..............................................passed
+Then I verify the "success" in step.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline 2" time="0.000582">
+<system-out><![CDATA[Given I want to write a step with "name2"...................................passed
+When I check for the 7 in step..............................................passed
+Then I verify the "Fail" in step............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline 3" time="0.000404">
+<system-out><![CDATA[Given I want to write a step with "name3"...................................passed
+When I check for the 11 in step.............................................passed
+Then I verify the "Fail" in step............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test * for replacing Gherkin keywords" name="Star usage test scenario" time="0.000708">
+<system-out><![CDATA[* I want to write a step with precondition..................................passed
+* some other precondition...................................................passed
+* I complete action.........................................................passed
+* some other action.........................................................passed
+* yet another action........................................................passed
+* I validate the outcomes...................................................passed
+* check more outcomes.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data Table learning feature" name="The sum of a list of numbers should be calculated" time="0.003646">
+<system-out><![CDATA[Given a list of numbers.....................................................passed
+When I summarize them.......................................................passed
+Then should I get 4770......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="RegEx Features" name="Regex features in various types" time="0.000505">
+<failure message="cucumber.runtime.AmbiguousStepDefinitionsException: ✽.And I have 2000 rupees in my account with &quot;X&quot; bank(06_Regex_test.feature:9) matches more than one step definition:&#10;  ^I have (\d+) rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)&#10;  ^I have 2000 rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)&#10;&#13;&#10;&#9;at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:265)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:98)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#13;&#10;"><![CDATA[Given I only have 1000 rupees in my account with "HDFC" bank................passed
+And I have 2000 rupees in my account with "X" bank..........................failed
+When I withdraw 600 rupees..................................................skipped
+Then I have a balance of 400 rupees.........................................skipped
+Given I have account in "CITY, ICICI, HDFC".................................skipped
+When I close "ICICI" account................................................skipped
+Then I have left with "CITY, HDFC" account..................................skipped
+
+StackTrace:
+cucumber.runtime.AmbiguousStepDefinitionsException: ✽.And I have 2000 rupees in my account with "X" bank(06_Regex_test.feature:9) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+	at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:265)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></failure>
+</testcase>
+<testcase classname="Ambiguous feature exploration in cucumber" name="Ambiguous keyword scenario" time="0.000842">
+<failure message="cucumber.runtime.AmbiguousStepDefinitionsException: ✽.When I have 2000 rupees in my account with &quot;X&quot; bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:&#10;  ^I have (\d+) rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)&#10;  ^I have 2000 rupees in my account with &quot;([^&quot;]*)&quot; bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)&#10;&#13;&#10;&#9;at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)&#13;&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:265)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#13;&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#13;&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)&#13;&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:98)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)&#13;&#10;&#9;at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)&#13;&#10;&#9;at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#13;&#10;"><![CDATA[Given I have 1000 rupees in my account with "HDFC" bank.....................passed
+When I have 2000 rupees in my account with "X" bank.........................failed
+
+StackTrace:
+cucumber.runtime.AmbiguousStepDefinitionsException: ✽.When I have 2000 rupees in my account with "X" bank(07_AmbigousMethod_Test.feature:8) matches more than one step definition:
+  ^I have (\d+) rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.i_have_rupees_in_my_account_with_bank(int,String)
+  ^I have 2000 rupees in my account with "([^"]*)" bank$ in StepDef07_AmbigousMethods.rupees_in_my_account_with_bank(int,String)
+
+	at cucumber.runtime.RuntimeGlue.stepDefinitionMatch(RuntimeGlue.java:71)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:265)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:344)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:269)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:184)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]></failure>
+</testcase>
+<testcase classname="String to Date" name="Passing string as date date" time="0.005328">
+<system-out><![CDATA[Given date of project release is "25-11-2016"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Capture and Non Capture Group" name="Capture Group" time="0.004737">
+<system-out><![CDATA[Given I am on empty given statement.........................................passed
+Then I find salary in my account............................................passed
+Then I donot find salary in my account......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Capture and Non Capture Group" name="Non Capture Group" time="0.000239">
+<system-out><![CDATA[Given I have some money in my account.......................................passed
+Given User has some money in my account.....................................passed
+Given He has some money in my account.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Doc String" name="Doc String" time="0.000294">
+<system-out><![CDATA[Given one letter "O" is missing from following alphabets....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags" name="Two" time="0.000201">
+<system-out><![CDATA[Given I am running scenario two.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags" name="work in progress" time="0.000085">
+<system-out><![CDATA[Given I am running scenario wip.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks" name="H1" time="0.000166">
+<system-out><![CDATA[Given I am testing hook one.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks" name="H2" time="0.000091">
+<system-out><![CDATA[Given I am testing hook two.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
